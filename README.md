@@ -1,4 +1,4 @@
-# Auto PDF Cleaner
+# SCRIBD DOWNLOADER
 
 Extension Chrome Manifest V3 để tự động hóa quy trình:
 
