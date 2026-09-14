@@ -1,15 +1,5 @@
 # SCRIBD DOWNLOADER
 
-Extension Chrome Manifest V3 để tự động hóa quy trình:
-
-1. Đổi `document` trong URL thành `embeds`.
-2. Thêm `/content` vào cuối URL.
-3. Cuộn xuống cuối trang để kích hoạt lazy-loading.
-4. Xóa:
-   - `document_scroller`
-   - `toolbar_drop`
-   - `mobile_overlay`
-5. Mở cửa sổ **Print**.
 
 ## Cài đặt
 
@@ -17,7 +7,7 @@ Extension Chrome Manifest V3 để tự động hóa quy trình:
 2. Mở `chrome://extensions`.
 3. Bật **Developer mode**.
 4. Chọn **Load unpacked**.
-5. Chọn thư mục `auto-pdf-extension`.
+5. Chọn thư mục đã giải nén.
 
 ## Install
 
