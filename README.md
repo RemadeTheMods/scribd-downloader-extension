@@ -19,6 +19,14 @@ Extension Chrome Manifest V3 để tự động hóa quy trình:
 4. Chọn **Load unpacked**.
 5. Chọn thư mục `auto-pdf-extension`.
 
+## Install
+
+1. Extract ZIP file
+2. Open `chrome://extensions`.
+3. Turn on **Developer mode**.
+4. Select **Load unpacked**.
+5. Select the extracted folder.
+
 ## Sử dụng
 
 - Mở trang cần chuyển thành PDF.
