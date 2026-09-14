@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Auto PDF Cleaner",
+  "version": "1.3.0",
+  "description": "Tự động đổi Scribd document URL sang embeds/content, tải toàn bộ nội dung, làm rỗng class của viewer và mở hộp thoại in PDF.",
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Auto PDF Cleaner",
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "auto-pdf": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y"
+      },
+      "description": "Chạy Auto PDF Cleaner trên tab hiện tại"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Auto PDF Cleaner</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="wrap">
+    <h2>Auto PDF Cleaner</h2>
+    <p>Tự động thực hiện các bước xử lý trang trước khi lưu PDF.</p>
+    <button id="run">Chạy tự động</button>
+    <button id="print" class="secondary">Chỉ dọn trang + In PDF</button>
+    <div id="status">Sẵn sàng.</div>
+    <div class="note">
+      Sau khi Chrome mở cửa sổ In, chọn <b>Save as PDF</b> và tắt
+      <b>Headers and footers</b> + <b>Background graphics</b>.
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
