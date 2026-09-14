@@ -29,6 +29,8 @@
 
 Chrome không cho extension thông thường tự bấm các nút trong hộp thoại Print của hệ điều hành. Vì vậy bước cuối vẫn cần chọn **Save as PDF** và các tùy chọn in bằng tay.
 
+Nếu một số trang lưu ở phía sau là khoảng trắng thì nên cuộn xuống cuối trang trước khi thực hiện lại các bước.
+
 
 
 
